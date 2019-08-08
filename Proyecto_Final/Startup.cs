@@ -6,10 +6,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Persistence;
+using Service;
 
 namespace Proyecto_Final
 {
@@ -25,6 +28,21 @@ namespace Proyecto_Final
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connection = Configuration.GetConnectionString("Dev");
+            services.AddDbContext<ProjectDbContext>
+                (options => options.UseSqlServer(connection));
+
+
+            services.AddTransient<IClienteService, ClienteService>();
+
+            services.AddTransient<IVentaService, VentaService>();
+
+            services.AddTransient<IVendedoreService, VendedoreService>();
+
+            services.AddTransient<IVehiculoService, VehiculoService>();
+
+
+            ////////////////////////////
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
