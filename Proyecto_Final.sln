@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto_Final", "Proyecto_Final\Proyecto_Final.csproj", "{567603AB-F318-4BF5-A479-2E0F1A519594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyecto_Final", "Proyecto_Final\Proyecto_Final.csproj", "{567603AB-F318-4BF5-A479-2E0F1A519594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{FEFD8647-FB4E-4F6F-AE71-158261F038E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{FEFD8647-FB4E-4F6F-AE71-158261F038E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{1F486DDD-8E66-4565-917B-50EC53B48A56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{1F486DDD-8E66-4565-917B-50EC53B48A56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{572D16E7-CB4A-435C-A7FD-C018D2E8CDC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{572D16E7-CB4A-435C-A7FD-C018D2E8CDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagger", "Swagger\Swagger.csproj", "{A8C8E1D2-3BE0-44A2-801C-3519257B223B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{572D16E7-CB4A-435C-A7FD-C018D2E8CDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{572D16E7-CB4A-435C-A7FD-C018D2E8CDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{572D16E7-CB4A-435C-A7FD-C018D2E8CDC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C8E1D2-3BE0-44A2-801C-3519257B223B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C8E1D2-3BE0-44A2-801C-3519257B223B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C8E1D2-3BE0-44A2-801C-3519257B223B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C8E1D2-3BE0-44A2-801C-3519257B223B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
