@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{572D16E7-CB4A-435C-A7FD-C018D2E8CDC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagger", "Swagger\Swagger.csproj", "{A8C8E1D2-3BE0-44A2-801C-3519257B223B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swagger", "Swagger\Swagger.csproj", "{A8C8E1D2-3BE0-44A2-801C-3519257B223B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webtesting", "webtesting\webtesting.csproj", "{E56DE2AC-B8C4-42E4-8762-C0A754459BF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A8C8E1D2-3BE0-44A2-801C-3519257B223B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C8E1D2-3BE0-44A2-801C-3519257B223B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C8E1D2-3BE0-44A2-801C-3519257B223B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56DE2AC-B8C4-42E4-8762-C0A754459BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56DE2AC-B8C4-42E4-8762-C0A754459BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56DE2AC-B8C4-42E4-8762-C0A754459BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56DE2AC-B8C4-42E4-8762-C0A754459BF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
